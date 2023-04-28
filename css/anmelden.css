@@ -1,0 +1,124 @@
+    *{              margin: 0px;padding: 0px;}
+    body{
+                    background-color:#293f50;
+                    text-transform:uppercas;
+                    color: rgb(255, 255, 255); }
+    a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);}
+                    
+    a:hover
+                {   text-decoration: none;
+                    color: rgb(161, 158, 158) }
+
+
+     header{
+                    width: 750px ; height: 350px; ;
+                    margin:auto;
+                    overflow: hidden;
+                    font-family:Calibri Light,Arial, Helvetica, sans-serif;
+                    font-weight:100; position: relative; }
+                    
+    .logo{
+                    text-transform:uppercase;
+                    float:left;
+                    font-size:41px;
+                    font-weight:inherit;
+                    letter-spacing:1px;  position:relative; top: 45px; left:10px;
+                    line-height:38px;  }
+                
+    .datum{
+                    position: relative;top: 70px; right:0px;
+                    color:#648880;
+                    font-weight: inherit;
+                    text-align:right;
+                    padding:7px;
+                    margin-right:10px;}
+
+ .f-logo {          position: relative;
+                    width:30px; height:30px; 
+                    border-radius: 50%; 
+                    animation: x 3s ; }
+
+    .register{      border: aliceblue solid 1px ; border-radius: 10px;
+                    padding: 5px; font-weight: 500; }
+
+    .register:hover{ background-color: aliceblue; text-transform:lowercase; padding: 6px; font-weight: 500;
+    }
+    ul{              display:inline-flex;}
+
+    .list{   
+                    position: relative;right:0px;top: 55px;
+                    margin:10px; padding:0px;text-align: end;}
+    li{
+                    font-size:14px;
+                    padding: 5px;
+                    text-transform:uppercase;
+                    list-style: none}
+                        
+
+    .text-header{
+                    letter-spacing: 1px;
+                    text-align: center; 
+                    padding: 30px;
+                    font-weight:100;
+                    padding-top:70px;}
+
+    .t-text-header{
+                    color:#648880;
+                    font-weight:inherit;
+                    font-size:30px;
+                    padding:10px}
+
+    .par1{
+                    color: azure;
+                    padding: 4px;
+                    border: solid white 2px;
+                    border-radius:10px;
+                    font-variant:small-caps; 
+                    font-size:19px }
+       
+    .all{ 
+                background-color: white;
+                    height:400px;width:100%; 
+                    margin: auto;
+                    position: relative;}
+
+    .container    { height: 100%;
+                    width: 750px;
+                    margin:auto;
+
+                 background-image: url("../fotos/anmeldung1.jpg");
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                   }
+
+    input{
+                    color: rgb(45, 131, 134);
+                    padding: 5px;
+                    border-radius:10px;
+                    border-color:rgb(63, 152, 155);}
+
+    form{           position: relative;
+                    color: rgb(45, 131, 134);
+                    padding: 5px;
+                    border-radius:10px;
+                    border-color:rgb(63, 152, 155);
+                    padding-top: 120px; 
+                    animation: y 3s }
+
+
+    footer{
+                    width: 750px;
+                    height: 50px;
+                    margin: auto;
+                    text-align:end;
+                    font-family:Calibri Light,Arial, Helvetica, sans-serif;
+                    text-transform:uppercase;
+                    position: relative;top: 20px;}
+
+
+                @keyframes x {  0%{bottom: 80px;} 
+                                100%{bottom: 0px;} }
+                @keyframes y {  0%{top: 250px;} 
+                                100%{top: 0px;} }

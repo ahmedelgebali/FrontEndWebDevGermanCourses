@@ -1,0 +1,56 @@
+
+
+    .logo1{ display: inline;  font-weight:400;  letter-spacing:1px;   line-height:30px; }
+
+
+    .f-logo{ position: relative; bottom: 3px; animation: x 3s ; }
+
+    .register{ position: relative; animation: x 3s ; }
+
+
+    .mycolor{background-color: #003461e8 !important;color: azure !important;}
+
+    .margin-header{margin-top: 10px;margin-bottom: 10px;}
+
+    .margin{margin-top: 30px;}
+
+    .color{color: #003461e8 !important}
+
+    .bg-white{background-color: white !important;}
+
+    .border{border:#003461e8 solid 2px  ;}
+
+
+    .animation{position: relative; animation: y 3s ease-in-out;}
+    .animation2 { animation: m 4s ;}
+
+
+    @keyframes x { 0%{bottom: 60px;} 
+                   100%{bottom: 0px;} }
+
+     @keyframes m { 0%{ opacity:0;} 
+                    50%{opacity:0.5} 
+                    100%{opacity:1}  }
+
+
+    @keyframes y { 0%{bottom: 0px;} 
+                   25%{bottom: 20px;color: rgb(197, 177, 0)} 
+                   50%{bottom: 0px; } 
+                   75%{bottom: 10px;  } 
+                   100%{bottom: 0px;} }
+
+
+                   .shadow{
+             
+                    box-shadow: 5px 5px 5px 5px rgb(177, 178, 214);
+                
+                }
+                
+                .t-shadow{
+             
+                    text-shadow: 10px 10px 10px   rgb(168, 165, 199);
+                
+                }
+                
+               
+    
